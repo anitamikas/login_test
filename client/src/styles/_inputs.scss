@@ -1,0 +1,14 @@
+input {
+    border-radius: 5px;
+    border: 1px solid #818a91;
+    padding: 0.625em 0.4375em;
+
+    &:focus {
+        outline: none;
+        border-color: $secondary;
+    }
+}
+
+label {
+    margin: 1rem 0 0.3rem 0.3rem;
+}

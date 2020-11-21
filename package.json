@@ -1,0 +1,28 @@
+{
+    "name": "vuex_bootstrap_node-express_mongodb_w-auth_starter",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server/index.js",
+        "dev": "nodemon server/index.js"
+    },
+    "author": "Christopher Liedtke",
+    "license": "MIT",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "compression": "^1.7.4",
+        "cookie-session": "^1.4.0",
+        "cors": "^2.8.5",
+        "crypto-random-string": "^3.2.0",
+        "csurf": "^1.11.0",
+        "express": "^4.17.1",
+        "express-session": "^1.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.9.15",
+        "nodemailer": "^6.4.6"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
+}

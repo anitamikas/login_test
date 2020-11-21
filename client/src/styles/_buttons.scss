@@ -1,0 +1,30 @@
+%btn {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 7px 18px;
+    border: none;
+    cursor: pointer;
+    transition: linear 0.3s;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.btn-primary {
+    @extend %btn;
+    background-color: $primary;
+
+    &:hover {
+        background-color: lighten($primary, 15%);
+    }
+}
+
+.btn-secondary {
+    @extend %btn;
+    background-color: $secondary;
+
+    &:hover {
+        background-color: lighten($secondary, 15%);
+    }
+}
